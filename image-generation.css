@@ -462,3 +462,214 @@ NO IMAGE
     margin-top:100px;
 
 }
+
+
+/* =========================
+TABLET
+========================= */
+
+@media(max-width:1200px){
+
+    .hero{
+
+        flex-direction:column;
+
+        padding:50px;
+
+    }
+
+    .hero-left,
+    .hero-right{
+
+        width:100%;
+
+    }
+
+    .hero-left h1{
+
+        font-size:8rem;
+
+    }
+
+    .hero-right{
+
+        height:auto;
+
+        min-height:600px;
+
+    }
+
+}
+
+/* =========================
+MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    /* HEADER */
+
+    header{
+
+        padding:20px;
+
+        height:auto;
+
+        flex-direction:column;
+
+        gap:20px;
+
+    }
+
+    nav{
+
+        gap:25px;
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+    }
+
+    nav a{
+
+        font-size:12px;
+
+        letter-spacing:2px;
+
+    }
+
+    .header-btn{
+
+        padding:16px 28px;
+
+        font-size:12px;
+
+        letter-spacing:2px;
+
+    }
+
+    .logo img{
+
+        height:60px;
+
+    }
+
+    /* HERO */
+
+    .hero{
+
+        padding:25px;
+
+        flex-direction:column;
+
+        gap:40px;
+
+    }
+
+    .hero-left,
+    .hero-right{
+
+        width:100%;
+
+    }
+
+    /* TITLE */
+
+    .hero-left h1{
+
+        font-size:4.8rem;
+
+        line-height:.95;
+
+    }
+
+    .hero-left h3{
+
+        font-size:1.1rem;
+
+        line-height:1.7;
+
+    }
+
+    .hero-left p{
+
+        font-size:12px;
+
+        letter-spacing:4px;
+
+    }
+
+    /* INPUT */
+
+    .input-area{
+
+        flex-direction:column;
+
+        gap:18px;
+
+    }
+
+    .input-area input{
+
+        width:100%;
+
+        height:70px;
+
+        font-size:1rem;
+
+    }
+
+    .input-area button{
+
+        width:100%;
+
+        height:70px;
+
+        font-size:1rem;
+
+    }
+
+    /* TAGS */
+
+    .tags{
+
+        gap:12px;
+
+    }
+
+    .tag-btn{
+
+        padding:14px 22px;
+
+        font-size:.85rem;
+
+    }
+
+    /* RIGHT SIDE */
+
+    .hero-right{
+
+        height:auto;
+
+        min-height:500px;
+
+        padding:15px;
+
+    }
+
+    /* IMAGE GRID */
+
+    .image-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .image-grid img{
+
+        height:250px;
+
+    }
+
+}
